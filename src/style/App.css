@@ -219,3 +219,11 @@ html, body {
 .paginator span.curent {
     font-weight: bold;
 }
+
+.preload img {
+    width: 30px;
+}
+
+.img-profile {
+    max-width: 300px;
+}

@@ -12,7 +12,7 @@ const Blog = (props) => {
             <p>{props.date}</p>
             <p>{props.views}</p>
             <p>{props.commentsCount}</p>
-            <div class="descriptionBlock">
+            <div className="descriptionBlock">
                 <p>{props.text}</p>
             </div>
         </div>

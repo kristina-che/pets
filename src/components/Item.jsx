@@ -10,8 +10,8 @@ const Item = (props) => {
     return(
       <>
          <Link to={'/pets/'+ props.id} className="item">
-             <div class="overlay">
-                 <div class="text">More</div>
+             <div className="overlay">
+                 <div className="text">More</div>
              </div>
             <div className="wrapImg">
                 <img src={imgNone}/>
@@ -20,7 +20,7 @@ const Item = (props) => {
                 <h4>Name: <span>{props.name}</span></h4>
                 <p><b>Age:</b> {props.age}</p>
                 <p><b>Stylization:</b> {props.stylization}</p>
-                <div class="descriptionBlock">
+                <div className="descriptionBlock">
                     <p>{props.description}</p>
                 </div>
 
